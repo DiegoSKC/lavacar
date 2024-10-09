@@ -1,5 +1,10 @@
 import { Router } from "express"
-
+import { 
+    store,
+    index,
+    show,
+    update,
+    destroy }
 const router = Router()
 
 router.post("/", /*implementar a criacao do cliente*/)
