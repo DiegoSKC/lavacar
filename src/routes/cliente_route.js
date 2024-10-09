@@ -6,12 +6,13 @@ import {
     update,
     destroy 
 } from "../controllers/cliente_controller.js"
+
 const router = Router()
 
-router.post("/", /*implementar a criacao do cliente*/)
-router.get("/",)
-router.get("/:id",)
-router.put("/:id",)
-router.delete("/:id",)
+router.post("/", store)
+router.get("/", index)
+router.get("/:id", show)
+router.put("/:id", update)
+router.delete("/:id", destroy)
 
 export default router;
