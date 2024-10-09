@@ -4,7 +4,8 @@ import {
     index,
     show,
     update,
-    destroy }
+    destroy 
+} from "../controllers/cliente_controller.js"
 const router = Router()
 
 router.post("/", /*implementar a criacao do cliente*/)
